@@ -1,0 +1,6 @@
+framework module Pods_bitriseTests {
+  umbrella header "Pods-bitriseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

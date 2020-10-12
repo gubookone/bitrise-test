@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04433B0CA05BC548F54019034FBFE5C5 /* Pods-bitrise-bitriseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CA746DE382300696BDF01845FC11FA /* Pods-bitrise-bitriseUITests-dummy.m */; };
+		197F5676C210283C38D015970433153E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2E21479F4557B9CC05FA7DBB1940AFCD /* Pods-bitriseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3308AAF4EC6BEBC4C3B9A1A97012775B /* Pods-bitriseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF64ABA20B0F0405D7387C1BC99D289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A253C4909A56E310DCFC4FA06E4C6E26 /* Pods-bitrise-bitriseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91ACBBFA7C977FA790F6CD3948017C05 /* Pods-bitrise-bitriseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B57001E6CCA159A3354AD2E6991DEC7A /* Pods-bitriseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5EA8FB87996DC937F9AB4946D43976 /* Pods-bitriseTests-dummy.m */; };
+		E13EA195B23A8AFFCF9B3F9AA98CC200 /* Pods-bitrise-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9057757DDA13B2AC3132DF79B2E39 /* Pods-bitrise-dummy.m */; };
+		F332C431FF484374AE35678793C10C10 /* Pods-bitrise-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D6B442DBD5CD68F935E4DABEB0E28C /* Pods-bitrise-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F746750EB1709FB3BA629E8F28EB3B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2165682F88DB081624B29984E78A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2D6EB91C81E854E23F51EE5508AF3D;
+			remoteInfo = "Pods-bitrise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C45EF28DC5516957BD06AFDFB690FF /* Pods_bitrise_bitriseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bitrise_bitriseUITests.framework; path = "Pods-bitrise-bitriseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0516288800D0EC11EAB9788D7BAD8309 /* Pods_bitrise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bitrise.framework; path = "Pods-bitrise.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CEFA12412F5BAAF3F7AE6B5520DED0 /* Pods-bitrise-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bitrise-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07CB3037A7EA1B99AE3E06B1107AD553 /* Pods-bitriseTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitriseTests-Info.plist"; sourceTree = "<group>"; };
+		270BD630C77F74F5A7CFB8583A6A4988 /* Pods-bitriseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitriseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31ACBCCA9BFDB3FA09B1B5455029124D /* Pods-bitrise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitrise.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3308AAF4EC6BEBC4C3B9A1A97012775B /* Pods-bitriseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bitriseTests-umbrella.h"; sourceTree = "<group>"; };
+		355965B7106FC3F795E01C04C99C0C8B /* Pods-bitrise-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitrise-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C9398F6906054B13A8E6A65BB7F92BE /* Pods-bitrise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitrise.release.xcconfig"; sourceTree = "<group>"; };
+		4F6DBC2C42F24DC819FF7705B6D6F64B /* Pods-bitriseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bitriseTests.modulemap"; sourceTree = "<group>"; };
+		560312A63F69D800C2C6D868D5AA9D13 /* Pods-bitrise-bitriseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bitrise-bitriseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5872BCC67ED18CB7E0CF1DA781180E5A /* Pods-bitriseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitriseTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5EA8FB87996DC937F9AB4946D43976 /* Pods-bitriseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bitriseTests-dummy.m"; sourceTree = "<group>"; };
+		6F4EA8178EF14EB61010B109849A0853 /* Pods-bitrise-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitrise-Info.plist"; sourceTree = "<group>"; };
+		857A15CD6FEF2E2CE7215B8CE8082286 /* Pods-bitrise-bitriseUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitrise-bitriseUITests-Info.plist"; sourceTree = "<group>"; };
+		91ACBBFA7C977FA790F6CD3948017C05 /* Pods-bitrise-bitriseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bitrise-bitriseUITests-umbrella.h"; sourceTree = "<group>"; };
+		95D9057757DDA13B2AC3132DF79B2E39 /* Pods-bitrise-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bitrise-dummy.m"; sourceTree = "<group>"; };
+		98D6B442DBD5CD68F935E4DABEB0E28C /* Pods-bitrise-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bitrise-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB46D72960C91B5FB1BE562D32E58526 /* Pods-bitrise-bitriseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitrise-bitriseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3829F7F92BA25A4E1F5F0F15626D920 /* Pods-bitriseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bitriseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8CA746DE382300696BDF01845FC11FA /* Pods-bitrise-bitriseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bitrise-bitriseUITests-dummy.m"; sourceTree = "<group>"; };
+		E098C65CAD25BD5648E8D6C9FCBFCC98 /* Pods-bitriseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitriseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3AB0BBB049E6F00DED69B47EB3AE1EB /* Pods-bitrise-bitriseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bitrise-bitriseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EACBA01B702EDDC582174C6F617F93A1 /* Pods-bitrise-bitriseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bitrise-bitriseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9B299FF4857AEB2C78624BF6823042 /* Pods-bitrise-bitriseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bitrise-bitriseUITests.modulemap"; sourceTree = "<group>"; };
+		F7A1DA81CF7B42E917CB5C2A39ED17AD /* Pods-bitrise.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bitrise.modulemap"; sourceTree = "<group>"; };
+		F89E7342786C16E0C61091063DBBCF52 /* Pods_bitriseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_bitriseTests.framework; path = "Pods-bitriseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F31BD5EE31033B3987E8A4B988EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF64ABA20B0F0405D7387C1BC99D289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B334D7C4FA559A98517875A836275944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746750EB1709FB3BA629E8F28EB3B6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBCCAFADB03C01A9942CE8CF7930A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197F5676C210283C38D015970433153E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A34FC519AA09215B53836E29730DE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61197FDD5E206003F4B6F64ABD02255 /* Pods-bitrise */,
+				84F11E469860CD6F74A0A11CCE656F30 /* Pods-bitrise-bitriseUITests */,
+				7ECFB7DFDA7246467E186515E31468A9 /* Pods-bitriseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7ECFB7DFDA7246467E186515E31468A9 /* Pods-bitriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F6DBC2C42F24DC819FF7705B6D6F64B /* Pods-bitriseTests.modulemap */,
+				D3829F7F92BA25A4E1F5F0F15626D920 /* Pods-bitriseTests-acknowledgements.markdown */,
+				270BD630C77F74F5A7CFB8583A6A4988 /* Pods-bitriseTests-acknowledgements.plist */,
+				5C5EA8FB87996DC937F9AB4946D43976 /* Pods-bitriseTests-dummy.m */,
+				07CB3037A7EA1B99AE3E06B1107AD553 /* Pods-bitriseTests-Info.plist */,
+				3308AAF4EC6BEBC4C3B9A1A97012775B /* Pods-bitriseTests-umbrella.h */,
+				E098C65CAD25BD5648E8D6C9FCBFCC98 /* Pods-bitriseTests.debug.xcconfig */,
+				5872BCC67ED18CB7E0CF1DA781180E5A /* Pods-bitriseTests.release.xcconfig */,
+			);
+			name = "Pods-bitriseTests";
+			path = "Target Support Files/Pods-bitriseTests";
+			sourceTree = "<group>";
+		};
+		84F11E469860CD6F74A0A11CCE656F30 /* Pods-bitrise-bitriseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B299FF4857AEB2C78624BF6823042 /* Pods-bitrise-bitriseUITests.modulemap */,
+				560312A63F69D800C2C6D868D5AA9D13 /* Pods-bitrise-bitriseUITests-acknowledgements.markdown */,
+				E3AB0BBB049E6F00DED69B47EB3AE1EB /* Pods-bitrise-bitriseUITests-acknowledgements.plist */,
+				D8CA746DE382300696BDF01845FC11FA /* Pods-bitrise-bitriseUITests-dummy.m */,
+				857A15CD6FEF2E2CE7215B8CE8082286 /* Pods-bitrise-bitriseUITests-Info.plist */,
+				91ACBBFA7C977FA790F6CD3948017C05 /* Pods-bitrise-bitriseUITests-umbrella.h */,
+				EACBA01B702EDDC582174C6F617F93A1 /* Pods-bitrise-bitriseUITests.debug.xcconfig */,
+				BB46D72960C91B5FB1BE562D32E58526 /* Pods-bitrise-bitriseUITests.release.xcconfig */,
+			);
+			name = "Pods-bitrise-bitriseUITests";
+			path = "Target Support Files/Pods-bitrise-bitriseUITests";
+			sourceTree = "<group>";
+		};
+		B61197FDD5E206003F4B6F64ABD02255 /* Pods-bitrise */ = {
+			isa = PBXGroup;
+			children = (
+				F7A1DA81CF7B42E917CB5C2A39ED17AD /* Pods-bitrise.modulemap */,
+				06CEFA12412F5BAAF3F7AE6B5520DED0 /* Pods-bitrise-acknowledgements.markdown */,
+				355965B7106FC3F795E01C04C99C0C8B /* Pods-bitrise-acknowledgements.plist */,
+				95D9057757DDA13B2AC3132DF79B2E39 /* Pods-bitrise-dummy.m */,
+				6F4EA8178EF14EB61010B109849A0853 /* Pods-bitrise-Info.plist */,
+				98D6B442DBD5CD68F935E4DABEB0E28C /* Pods-bitrise-umbrella.h */,
+				31ACBCCA9BFDB3FA09B1B5455029124D /* Pods-bitrise.debug.xcconfig */,
+				4C9398F6906054B13A8E6A65BB7F92BE /* Pods-bitrise.release.xcconfig */,
+			);
+			name = "Pods-bitrise";
+			path = "Target Support Files/Pods-bitrise";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FABE7CFCB75C217F6D7821E8174E3748 /* Products */,
+				37A34FC519AA09215B53836E29730DE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABE7CFCB75C217F6D7821E8174E3748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0516288800D0EC11EAB9788D7BAD8309 /* Pods_bitrise.framework */,
+				02C45EF28DC5516957BD06AFDFB690FF /* Pods_bitrise_bitriseUITests.framework */,
+				F89E7342786C16E0C61091063DBBCF52 /* Pods_bitriseTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		604C160EE1AF564F4C39AB72F749D55A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E21479F4557B9CC05FA7DBB1940AFCD /* Pods-bitriseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623304ED28A37A70479D771681D9292B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F332C431FF484374AE35678793C10C10 /* Pods-bitrise-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74512674CEF4A903B4574A5483315BA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A253C4909A56E310DCFC4FA06E4C6E26 /* Pods-bitrise-bitriseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DD77F130D30884FB1ED962DB6268C7E /* Pods-bitriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7697C35399038DDB5AB9A094276AC4 /* Build configuration list for PBXNativeTarget "Pods-bitriseTests" */;
+			buildPhases = (
+				604C160EE1AF564F4C39AB72F749D55A /* Headers */,
+				C865CFD894EC7DF88A69A0B887EDA523 /* Sources */,
+				B334D7C4FA559A98517875A836275944 /* Frameworks */,
+				67BC5CAB00394242A1279AFF762D7DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5B7E24E04CE25BA4F0443F765C7919 /* PBXTargetDependency */,
+			);
+			name = "Pods-bitriseTests";
+			productName = "Pods-bitriseTests";
+			productReference = F89E7342786C16E0C61091063DBBCF52 /* Pods_bitriseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F2D6EB91C81E854E23F51EE5508AF3D /* Pods-bitrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD7B170361A1100B38B12040B6619F9 /* Build configuration list for PBXNativeTarget "Pods-bitrise" */;
+			buildPhases = (
+				623304ED28A37A70479D771681D9292B /* Headers */,
+				8806F58DA895A1D3A9FA51D6197F13B1 /* Sources */,
+				BDBCCAFADB03C01A9942CE8CF7930A38 /* Frameworks */,
+				48778F05867CD0A9977FEF419E868E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-bitrise";
+			productName = "Pods-bitrise";
+			productReference = 0516288800D0EC11EAB9788D7BAD8309 /* Pods_bitrise.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66281163412A5C2D9A54557C4366A48E /* Pods-bitrise-bitriseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 161C3C51BB8E05A94D001E7B70198AD4 /* Build configuration list for PBXNativeTarget "Pods-bitrise-bitriseUITests" */;
+			buildPhases = (
+				74512674CEF4A903B4574A5483315BA6 /* Headers */,
+				B032CB1C9D0E492A2B730ABCFED7DC18 /* Sources */,
+				19F31BD5EE31033B3987E8A4B988EB9C /* Frameworks */,
+				6E17FF5890210DB1B20F67F70EDE2D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-bitrise-bitriseUITests";
+			productName = "Pods-bitrise-bitriseUITests";
+			productReference = 02C45EF28DC5516957BD06AFDFB690FF /* Pods_bitrise_bitriseUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FABE7CFCB75C217F6D7821E8174E3748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2D6EB91C81E854E23F51EE5508AF3D /* Pods-bitrise */,
+				66281163412A5C2D9A54557C4366A48E /* Pods-bitrise-bitriseUITests */,
+				3DD77F130D30884FB1ED962DB6268C7E /* Pods-bitriseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48778F05867CD0A9977FEF419E868E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BC5CAB00394242A1279AFF762D7DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E17FF5890210DB1B20F67F70EDE2D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8806F58DA895A1D3A9FA51D6197F13B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13EA195B23A8AFFCF9B3F9AA98CC200 /* Pods-bitrise-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032CB1C9D0E492A2B730ABCFED7DC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04433B0CA05BC548F54019034FBFE5C5 /* Pods-bitrise-bitriseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C865CFD894EC7DF88A69A0B887EDA523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57001E6CCA159A3354AD2E6991DEC7A /* Pods-bitriseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A5B7E24E04CE25BA4F0443F765C7919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-bitrise";
+			target = 4F2D6EB91C81E854E23F51EE5508AF3D /* Pods-bitrise */;
+			targetProxy = 3B2165682F88DB081624B29984E78A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05334EBAE5D5E82150A0AE1604848F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31ACBCCA9BFDB3FA09B1B5455029124D /* Pods-bitrise.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitrise/Pods-bitrise-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitrise/Pods-bitrise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F2CCCB8B1D08345D2E47BDF2A40EF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E098C65CAD25BD5648E8D6C9FCBFCC98 /* Pods-bitriseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitriseTests/Pods-bitriseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitriseTests/Pods-bitriseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34714926DDC7F2F6BAE921E27ECD3C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACBA01B702EDDC582174C6F617F93A1 /* Pods-bitrise-bitriseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitrise-bitriseUITests/Pods-bitrise-bitriseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitrise-bitriseUITests/Pods-bitrise-bitriseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0D184DE1F5D28BE9E3A8233EFEFD485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5872BCC67ED18CB7E0CF1DA781180E5A /* Pods-bitriseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitriseTests/Pods-bitriseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitriseTests/Pods-bitriseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC6F14586B01B7CCB623E00556A87AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9398F6906054B13A8E6A65BB7F92BE /* Pods-bitrise.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitrise/Pods-bitrise-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitrise/Pods-bitrise.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB4B2AA07DEC9F3A4E38EC76CFEF05EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB46D72960C91B5FB1BE562D32E58526 /* Pods-bitrise-bitriseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bitrise-bitriseUITests/Pods-bitrise-bitriseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bitrise-bitriseUITests/Pods-bitrise-bitriseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7697C35399038DDB5AB9A094276AC4 /* Build configuration list for PBXNativeTarget "Pods-bitriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2CCCB8B1D08345D2E47BDF2A40EF6A /* Debug */,
+				B0D184DE1F5D28BE9E3A8233EFEFD485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		161C3C51BB8E05A94D001E7B70198AD4 /* Build configuration list for PBXNativeTarget "Pods-bitrise-bitriseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34714926DDC7F2F6BAE921E27ECD3C56 /* Debug */,
+				EB4B2AA07DEC9F3A4E38EC76CFEF05EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD7B170361A1100B38B12040B6619F9 /* Build configuration list for PBXNativeTarget "Pods-bitrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05334EBAE5D5E82150A0AE1604848F6C /* Debug */,
+				DC6F14586B01B7CCB623E00556A87AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
